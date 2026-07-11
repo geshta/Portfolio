@@ -9,5 +9,12 @@ desktop.ini
 __pycache__/
 *.pyc
 
+# Word temp lock files
+~$*.docx
+~$*.doc
+
+# Embedded sub-repos
+Portfolio/
+
 # Original compressed PDF (optional to exclude)
 Resume_compressed.pdf
