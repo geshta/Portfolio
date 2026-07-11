@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>M Geshta Berling - Resume</title>
+  <link rel="stylesheet" href="styles/resume.css">
+</head>
+<body>
+
+  <!-- Controls (hidden on print) -->
+  <div class="control-banner">
+    <a href="index.html" class="control-btn btn-back">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="19" y1="12" x2="5" y2="12"></line>
+        <polyline points="12 19 5 12 12 5"></polyline>
+      </svg>
+      Back to Portfolio
+    </a>
+    <div class="control-btn-group">
+      <button onclick="window.print()" class="control-btn btn-print">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="6 9 6 2 18 2 18 9"></polyline>
+          <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+          <rect x="6" y="14" width="12" height="8"></rect>
+        </svg>
+        Print / Save PDF
+      </button>
+    </div>
+  </div>
+
+  <!-- A4 Page Container -->
+  <div class="resume-paper">
+    
+    <!-- Main Left Column -->
+    <div class="resume-main-col">
+      <!-- Header -->
+      <header class="resume-header">
+        <div class="header-text">
+          <h1>M GESHTA BERLING</h1>
+          <h2>Full Stack & Systems Developer</h2>
+        </div>
+        <div class="header-photo-wrapper">
+          <img src="assets/profile.png" alt="M Geshta Berling" class="header-photo">
+        </div>
+      </header>
+
+      <!-- Profile Summary -->
+      <section class="resume-section">
+        <h3 class="resume-section-title">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+          Professional Summary
+        </h3>
+        <p class="summary-text">
+          Computer Science graduate pursuing an M.Tech in Computer Science and Engineering (GATE-qualified), with hands-on experience as a Full Stack Developer building enterprise software for SaaS, CRM, and ERP use cases. Skilled in scalable business applications spanning web platforms, desktop automation, and computer vision, with a strong foundation in system design, database design, and workflow automation. Proven problem-solver using Agile practices to accelerate delivery.
+        </p>
+      </section>
+
+      <!-- Experience -->
+      <section class="resume-section">
+        <h3 class="resume-section-title">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+          Experience
+        </h3>
+
+        <!-- Experience 1 -->
+        <div class="resume-item">
+          <div class="resume-item-header">
+            <h4 class="resume-item-title">Independent Software Developer – FuelFlow CRM & ERP</h4>
+            <span class="resume-item-date">Co-Developer | Present</span>
+          </div>
+          <p class="project-tech">Tech Stack: React, TypeScript, Node.js, Express.js, PostgreSQL, GitHub Actions (CI/CD)</p>
+          <ul class="resume-item-desc">
+            <li>Co-designed and developed a modular SaaS CRM and ERP platform covering sales pipeline, HR, inventory, dispatch, salary payments, and after-sales service ticketing.</li>
+            <li>Built responsive UI modules backed by Express.js REST APIs and a structured PostgreSQL relational database schema.</li>
+            <li>Configured automated CI/CD pipelines (GitHub Actions) for linting, automated testing, and seamless cloud deployments.</li>
+          </ul>
+        </div>
+
+        <!-- Experience 2 -->
+        <div class="resume-item">
+          <div class="resume-item-header">
+            <h4 class="resume-item-title">Freelance Software Developer – Milk Delivery App</h4>
+            <span class="resume-item-date">Client Project | 2025</span>
+          </div>
+          <p class="project-tech">Tech Stack: Python, CustomTkinter, pandas, openpyxl, Inno Setup</p>
+          <ul class="resume-item-desc">
+            <li>Delivered a production-ready Windows desktop app to manage records, deliveries, and automatic invoice generation.</li>
+            <li>Automated spreadsheet compilers with pandas and openpyxl to compile and format yearly financial reports.</li>
+            <li>Integrated automated WhatsApp billing alerts and bundled the tool as an executable with a secure installer.</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section class="resume-section">
+        <h3 class="resume-section-title">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/><path d="M2 12h20"/></svg>
+          Key Projects
+        </h3>
+
+        <!-- Project 1 -->
+        <div class="resume-item">
+          <div class="resume-item-header">
+            <h4 class="resume-item-title">Criminal Finder System (Final Year UG Project)</h4>
+            <span class="resume-item-date">2026</span>
+          </div>
+          <p class="project-tech">Tech Stack: MERN Stack, OpenCV, Computer Vision</p>
+          <ul class="resume-item-desc">
+            <li>Built an identification platform featuring standard search index and live video detection utilizing OpenCV.</li>
+            <li><strong>Achievement:</strong> Research co-authored and presented at the <em>2nd International Conference on Smart Technology and Artificial Intelligence (STAI 2026)</em>, ACM Fremont Chapter, USA.</li>
+          </ul>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="resume-item">
+          <div class="resume-item-header">
+            <h4 class="resume-item-title">Power Bank from E-Waste (Design Build)</h4>
+            <span class="resume-item-date">2025</span>
+          </div>
+          <ul class="resume-item-desc">
+            <li>Repurposed Lithium-ion cells with multi-channel charging circuitry. Research presented at <em>ICSCSS 2025</em>, IEEE Systems Council, Coimbatore. <a href="https://drive.google.com/drive/folders/1lTL39di_Y6YnKEQljjc7nlmwrb6xn_AQ?usp=drive_link" target="_blank">View Certificate</a>.</li>
+          </ul>
+        </div>
+      </section>
+    </div>
+
+    <!-- Sidebar Right Column -->
+    <div class="resume-sidebar-col">
+      <!-- Contact Info -->
+      <section class="resume-section">
+        <h3 class="resume-section-title">Contact</h3>
+        <div class="sidebar-contact">
+          <div class="contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <span>+91-7305853778</span>
+          </div>
+          <div class="contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <span>mgeshta77@gmail.com</span>
+          </div>
+          <a href="http://www.linkedin.com/in/geshta-berling-6195342b6" target="_blank" class="contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            <span>LinkedIn</span>
+          </a>
+          <a href="https://github.com/geshta" target="_blank" class="contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+            <span>GitHub</span>
+          </a>
+          <div class="contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>Dindigul, Tamil Nadu</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Education -->
+      <section class="resume-section">
+        <h3 class="resume-section-title">Education</h3>
+        <div class="edu-item">
+          <p class="edu-degree">M.Tech, CSE</p>
+          <p class="edu-inst">Amrita Vishwa Vidyapeetham</p>
+          <p class="edu-dates">Present | GATE Admitted</p>
+        </div>
+        <div class="edu-item">
+          <p class="edu-degree">B.Tech, CSE [AIML]</p>
+          <p class="edu-inst">Kalasalingam Academy</p>
+          <p class="edu-dates">2022 - 2026 | CGPA: 8.88</p>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="resume-section">
+        <h3 class="resume-section-title">Skills</h3>
+        <div class="sidebar-skills">
+          <div>
+            <h4 class="skill-group-title">Languages</h4>
+            <div class="skill-tags">
+              <span class="skill-tag">Java</span>
+              <span class="skill-tag">Python</span>
+              <span class="skill-tag">TS / JS</span>
+            </div>
+          </div>
+          <div>
+            <h4 class="skill-group-title">Frontend</h4>
+            <div class="skill-tags">
+              <span class="skill-tag">React</span>
+              <span class="skill-tag">Bootstrap</span>
+            </div>
+          </div>
+          <div>
+            <h4 class="skill-group-title">Backend</h4>
+            <div class="skill-tags">
+              <span class="skill-tag">Node.js</span>
+              <span class="skill-tag">Express.js</span>
+              <span class="skill-tag">PostgreSQL</span>
+              <span class="skill-tag">REST APIs</span>
+            </div>
+          </div>
+          <div>
+            <h4 class="skill-group-title">CV & Tools</h4>
+            <div class="skill-tags">
+              <span class="skill-tag">OpenCV</span>
+              <span class="skill-tag">Pandas</span>
+              <span class="skill-tag">openpyxl</span>
+              <span class="skill-tag">Git & CI/CD</span>
+              <span class="skill-tag">Inno Setup</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Certifications -->
+      <section class="resume-section">
+        <h3 class="resume-section-title">Certifications</h3>
+        <ul class="sidebar-list">
+          <li>Generative AI (Online)</li>
+          <li>Artificial Intelligence (Online)</li>
+          <li>Data Structures (CodeChef)</li>
+          <li>DBMS (CodeChef)</li>
+        </ul>
+      </section>
+
+      <!-- Languages -->
+      <section class="resume-section">
+        <h3 class="resume-section-title">Languages</h3>
+        <ul class="sidebar-list">
+          <li>Tamil (Native)</li>
+          <li>English (Professional)</li>
+          <li>Hindi/Telugu (Basic)</li>
+        </ul>
+      </section>
+    </div>
+
+  </div>
+
+</body>
+</html>
