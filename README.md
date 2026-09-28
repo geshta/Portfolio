@@ -14,7 +14,7 @@ Welcome to my developer portfolio! This repository contains the source code for 
 - **2× Research Publications:**
   - Dual-Mode AI Detection System (**ACM STAI 2026**, USA)
   - E-Waste Power Bank & Circuit Design (**IEEE ICSCSS 2025**)
-- **Live SaaS Platform:** Co-developed **FuelFlow CRM & ERP**, serving enterprise clients in production.
+- **Live SaaS Platform:** Designed & developed **FuelFlow CRM & ERP**, serving enterprise clients in production.
 
 ---
 
